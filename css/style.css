@@ -2,6 +2,28 @@ html, body {
     
     margin: 10;
     padding: 10;
+    background: #000;
+    
+        
+
+}
+
+h1 {
+    
+    color: #542c77;
+    font-weight: bold;
+}
+
+h2 {
+    
+    font-size: 18px;
+}
+
+
+
+.grid-wrapper {
+    
+    background: #fff;
 }
 
 .grid {
@@ -10,7 +32,7 @@ html, body {
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
-    border:  solid #000 3px;  
+    border:  solid #d33a3a 3px;  
 }
 
 .square {
@@ -22,10 +44,19 @@ html, body {
 
 .snake {
     
-    background-color: green;
+    background-color: blue;
 }
 
 .apple {
     
-    background-color: blue;
+    background-color: green;
+}
+
+.btn {
+    
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
 }
